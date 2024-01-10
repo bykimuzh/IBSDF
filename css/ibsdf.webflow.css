@@ -8,10 +8,10 @@
   --untitled-ui--gray400: #98a2b3;
   --untitled-ui--gray500: #667085;
   --untitled-ui--gray600: #475467;
-  --untitled-ui--primary700: #6941c6;
   --untitled-ui--gray900: #101828;
   --untitled-ui--primary600: #7f56d9;
   --untitled-ui--white: white;
+  --untitled-ui--primary700: #6941c6;
   --untitled-ui--primary100: #f4ebff;
   --untitled-ui--gray300: #d0d5dd;
   --untitled-ui--gray700: #344054;
@@ -1353,7 +1353,7 @@
 }
 
 .uui-text-size-medium.text-color-primary700 {
-  color: var(--untitled-ui--primary700);
+  color: #147a3e;
 }
 
 .uui-space-xsmall {
@@ -1689,7 +1689,7 @@
 
 .uui-button-2 {
   grid-column-gap: .5rem;
-  border: 1px solid var(--untitled-ui--primary600);
+  border: 1px solid var(--flowstica-webflow-library-honeydew);
   background-color: var(--flowstica-webflow-library-medium-sea-green);
   color: var(--untitled-ui--white);
   text-align: center;
