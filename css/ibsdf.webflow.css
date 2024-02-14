@@ -369,7 +369,7 @@
 }
 
 .wbs-hero-5-blockquote-content {
-  margin-bottom: 95px;
+  margin-bottom: 45px;
   font-size: 1.375rem;
   line-height: 1.3em;
 }
@@ -2125,6 +2125,40 @@
   display: flex;
 }
 
+.wbs-button-primary-2-copy {
+  background-color: var(--flowstica-webflow-library-honeydew);
+  color: var(--flowstica-webflow-library-medium-sea-green);
+  text-align: center;
+  border-radius: 6px;
+  padding: 13px 30px;
+  font-size: 15px;
+  font-weight: 700;
+  transition: background-color .3s ease-in-out;
+}
+
+.wbs-button-primary-2-copy:hover {
+  background-color: var(--flowstica-webflow-library-medium-sea-green);
+  color: var(--flowstica-webflow-library-white-smoke);
+}
+
+.wbs-button-primary-2-copy {
+  width: 100%;
+  background-color: var(--flowstica-webflow-library-honeydew);
+  color: var(--flowstica-webflow-library-medium-sea-green);
+  text-align: center;
+  border-radius: 6px;
+  margin-top: 43px;
+  padding: 13px 30px;
+  font-size: 15px;
+  font-weight: 700;
+  transition: background-color .3s ease-in-out;
+}
+
+.wbs-button-primary-2-copy:hover {
+  background-color: var(--flowstica-webflow-library-medium-sea-green);
+  color: var(--flowstica-webflow-library-white-smoke);
+}
+
 @media screen and (max-width: 991px) {
   .container {
     max-width: 728px;
@@ -2692,11 +2726,23 @@
   }
 
   .wbs-hero-5-blockquote-content {
+    margin-bottom: 37px;
     font-size: 1rem;
   }
 
   .wbs-heading-h1 {
     font-size: 2.3rem;
+  }
+
+  .wbs-hero-5 {
+    grid-template-areas: "."
+                         "Area"
+                         "Area-2";
+  }
+
+  .wbs-button-primary-2 {
+    width: 80vw;
+    display: block;
   }
 
   .wbs-navbar-logo-center {
@@ -2788,6 +2834,14 @@
 
   .lynx-heading {
     font-size: 29px;
+  }
+
+  .wbs-button-primary-2-copy {
+    width: 80vw;
+    width: 80vw;
+    justify-content: center;
+    margin-top: 45px;
+    display: flex;
   }
 }
 
